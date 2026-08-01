@@ -32,6 +32,9 @@ key is required by the default configuration.
 - `web/index.html`: dark responsive dashboard.
 - `web/latest.json`: dashboard data copy for static hosting.
 
+The same static bundle is mirrored in `docs/` so it can be served directly by
+GitHub Pages without a build step.
+
 The repository also includes a deterministic `web/sample.json` fallback so the
 dashboard opens immediately after cloning, before the first live refresh.
 

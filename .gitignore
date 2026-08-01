@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+reports/latest.json
+reports/latest.md
+reports/previous.json
+web/latest.json
+sample-build/

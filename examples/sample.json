@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-31T12:00:00Z",
+  "rpcUrl": "https://api.mainnet-beta.solana.com",
+  "solana": {
+    "health": "ok",
+    "slot": 365012345,
+    "epoch": {
+      "epoch": 845,
+      "slotIndex": 120000,
+      "slotsInEpoch": 432000,
+      "absoluteSlot": 365012345,
+      "blockHeight": 342000000,
+      "transactionCount": 220000000000
+    },
+    "blockTime": 1754000000,
+    "performance": {
+      "sampleCount": 5,
+      "slots": 1000,
+      "transactions": 2450000,
+      "sampleSeconds": 20,
+      "transactionsPerSecond": 122500,
+      "secondsPerSlot": 0.02
+    },
+    "validators": {
+      "active": 1250,
+      "delinquent": 7,
+      "totalActivatedStakeSol": 390000000,
+      "topValidators": []
+    },
+    "supply": {
+      "totalSol": 610000000,
+      "circulatingSol": 490000000,
+      "nonCirculatingSol": 120000000
+    }
+  },
+  "market": {
+    "solUsd": 182.42,
+    "sol24hChangePercent": 2.8,
+    "tvlUsd": 12400000000
+  },
+  "sources": [
+    {
+      "name": "Solana JSON-RPC",
+      "url": "https://api.mainnet-beta.solana.com",
+      "ok": true,
+      "fetchedAt": "2026-07-31T12:00:00Z"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true",
+      "ok": true,
+      "fetchedAt": "2026-07-31T12:00:00Z"
+    },
+    {
+      "name": "DefiLlama",
+      "url": "https://api.llama.fi/v2/historicalChainTvl/Solana",
+      "ok": true,
+      "fetchedAt": "2026-07-31T12:00:00Z"
+    }
+  ],
+  "anomalies": []
+}
